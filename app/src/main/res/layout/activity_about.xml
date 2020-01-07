@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="5dp"
+                android:layout_height="5dp" />
+
+            <ImageView
+                android:layout_width="10dp"
+                android:layout_height="match_parent"
+                android:contentDescription="TODO" />
+
+            <TextView
+                android:id="@+id/editText3"
+                android:layout_width="400dp"
+                android:layout_height="wrap_content"
+                android:gravity="start|top"
+                android:inputType="textMultiLine"
+                android:text="MayComputer adalah aplikasi untuk mempermudah dalam merakit/membangun sebuah komputer. "
+                android:textSize="16sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+
+
+                <TextView
+                    android:layout_width="5dp"
+                    android:layout_height="5dp" />
+
+                <ImageView
+                    android:layout_width="10dp"
+                    android:layout_height="match_parent"
+                    android:contentDescription="TODO" />
+
+                <TextView
+                    android:id="@+id/editText3"
+                    android:layout_width="400dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="start|top"
+                    android:inputType="textMultiLine"
+                    android:text="Aplikasi ini dibuat oleh Mahasiswa Universitas Komputer Indonesia yang diampu oleh Bapak Rizki Adam kurniawan, S.Kom, M.Kom dengan mata kuliah Pemerograman berbasis Objek, dengan kelompok yang beranggotakan:                                                       Muhamad Rizqi Ramdani       10118069                          Tendy Hermansyah                  10118083                                       Risky irfansyah                          10118085"
+                    android:textSize="16sp" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>
