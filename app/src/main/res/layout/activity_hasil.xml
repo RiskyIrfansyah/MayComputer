@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="30dp"
+        android:orientation="vertical"
+        tools:context=".MainActivity">
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="100dp"
+            android:text="PROCCESSOR\nintel core i7-7740x 4.3ghz up to \n4.5ghz\nRp.5.710.000 x 1"
+            android:textAlignment="center"
+            android:id="@+id/txtHasilProce"/>
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="100dp"
+            android:text="MOTHERBOARD\nASRock b360m pro4 (lga1151, b360\nddr4, usb 3.1, sata3\nRp.1.290.000 x 1"
+            android:textAlignment="center"
+            android:id="@+id/txtHasilMobo"/>
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="100dp"
+            android:text="VGA\nASRock b360m pro4 (lga1151, b360\nddr4, usb 3.1, sata3\nRp.1.290.000 x 1"
+            android:textAlignment="center"
+            android:id="@+id/txtHasilVga"/>
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="100dp"
+            android:text="RAM\nintel core i7-7740x 4.3ghz up to \n4.5ghz\nRp.5.710.000 x 1"
+            android:textAlignment="center"
+            android:id="@+id/txtHasilRam"/>
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="100dp"
+            android:text="HDD\nintel core i7-7740x 4.3ghz up to \n4.5ghz\nRp.5.710.000 x 1"
+            android:textAlignment="center"
+            android:id="@+id/txtHasilHdd"/>
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="100dp"
+            android:text="SSD\nintel core i7-7740x 4.3ghz up to \n4.5ghz\nRp.5.710.000 x 1"
+            android:textAlignment="center"
+            android:id="@+id/txtHasilSsd"/>
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="100dp"
+            android:text="PSU\nintel core i7-7740x 4.3ghz up to \n4.5ghz\nRp.5.710.000 x 1"
+            android:textAlignment="center"
+            android:id="@+id/txtHasilPsu"/>
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="100dp"
+            android:text="Casing\nintel core i7-7740x 4.3ghz up to \n4.5ghz\nRp.5.710.000 x 1"
+            android:textAlignment="center"
+            android:id="@+id/txtHasilCase"/>
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="100dp"
+            android:text="CPU\nintel core i7-7740x 4.3ghz up to \n4.5ghz\nRp.5.710.000 x 1"
+            android:textAlignment="center"
+            android:id="@+id/txtHasilCpu"/>
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="100dp"
+            android:text="MONITOR\nintel core i7-7740x 4.3ghz up to \n4.5ghz\nRp.5.710.000 x 1"
+            android:textAlignment="center"
+            android:id="@+id/txtHasilMonit"/>
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="100dp"
+            android:text="KEYBOARD\nintel core i7-7740x 4.3ghz up to \n4.5ghz\nRp.5.710.000 x 1"
+            android:textAlignment="center"
+            android:id="@+id/txtHasilKeybo"/>
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="100dp"
+            android:text="MOUSE\nintel core i7-7740x 4.3ghz up to \n4.5ghz\nRp.5.710.000 x 1"
+            android:textAlignment="center"
+            android:id="@+id/txtHasilMouse"/>
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="100dp"
+            android:text="FAN\nintel core i7-7740x 4.3ghz up to \n4.5ghz\nRp.5.710.000 x 1"
+            android:textAlignment="center"
+            android:id="@+id/txtHasilFan"/>
+
+        <Button
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Edit"
+            android:id="@+id/btnEdit"
+            android:onClick="Edit"/>
+
+        <FrameLayout
+            android:id="@+id/frame"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+</ScrollView>
