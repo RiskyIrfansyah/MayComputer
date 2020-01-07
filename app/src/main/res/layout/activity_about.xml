@@ -60,7 +60,7 @@
                     android:contentDescription="TODO" />
 
                 <TextView
-                    android:id="@+id/editText3"
+                    android:id="@+id/editText4"
                     android:layout_width="400dp"
                     android:layout_height="wrap_content"
                     android:gravity="start|top"

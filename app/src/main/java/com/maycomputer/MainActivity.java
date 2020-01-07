@@ -22,8 +22,7 @@ public class MainActivity extends AppCompatActivity {
         //button Build
         btnBuild = (Button) findViewById(R.id.build);
 
-
-
+        //button hasil
         btnBuild.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -31,30 +30,28 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(iBuild);
             }
         });
-
-
-
-
-
     }
 
 
     //Button Setting
+    public void ButtonOnClick(View view) {
+    }
+
     public void setting(View view) {
         Intent intent = new Intent(MainActivity.this, setting.class);
         startActivity(intent);
     }
+
     //Button About
     public void about(View view) {
         Intent intent = new Intent(MainActivity.this, about.class);
         startActivity(intent);
     }
+
     //button Your Build
     public void hasil(View view){
         Intent intent = new Intent(MainActivity.this, hasil.class);
         startActivity(intent);
     }
-
-
 
 }
