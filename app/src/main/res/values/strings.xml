@@ -20,4 +20,32 @@
     <string name="attachment_summary_on">Automatically download attachments for incoming emails
     </string>
     <string name="attachment_summary_off">Only download attachments when manually requested</string>
+
+
+    \\Build Pc(CPU)
+    <string-array name="socket_intel">
+        <item>LGA 775</item>
+        <item>LGA 1150</item>
+        <item>LGA 1151</item>
+        <item>LGA 1155</item>
+        <item>LGA 2011 V3</item>
+        <item>LGA 2066</item>
+    </string-array>
+
+    <string-array name="socket_amd">
+        <item>AM1</item>
+        <item>AM2</item>
+        <item>AM3</item>
+        <item>AM4</item>
+        <item>FM1</item>
+        <item>FM2</item>
+    </string-array>
+
+    <string-array name="number">
+        <item>x1</item>
+        <item>x2</item>
+        <item>x3</item>
+        <item>x4</item>
+        <item>x5</item>
+    </string-array>
 </resources>
