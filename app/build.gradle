@@ -32,4 +32,8 @@ dependencies {
     implementation 'com.android.support:appcompat-v7:26.1.0'
     //noinspection GradleCompatible
     implementation 'com.android.support:design:26.1.0'
+
+    //room persistence
+    implementation "android.arch.persistence.room:runtime:1.0.0"
+    annotationProcessor "android.arch.persistence.room:compiler:1.0.0"
 }

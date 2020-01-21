@@ -9,7 +9,7 @@ import android.widget.Button;
 
 public class Build extends AppCompatActivity {
     private Button btnProce, btnMobo, btnVga, btnRam, btnHdd, btnSsd, btnPsu, btnCase, btnCpuC,
-            btnMonit, btnKeybo, btnMouse, btnFanC;
+            btnMonit, btnKeybo, btnMouse, btnFanC, btnSave;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -131,6 +131,14 @@ public class Build extends AppCompatActivity {
             public void onClick(View v) {
                 Intent iFanC = new Intent(getApplicationContext(), ListBuild.class);
                 startActivity(iFanC);
+            }
+        });
+
+        btnSave.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent iSave = new Intent(getApplicationContext(), ListBuild.class);
+                startActivity(iSave);
             }
         });
     }
