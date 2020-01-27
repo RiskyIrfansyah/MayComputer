@@ -29,6 +29,7 @@ public class Build extends AppCompatActivity {
         btnKeybo = (Button) findViewById(R.id.buttonKeyboard);
         btnMouse = (Button) findViewById(R.id.buttonMouse);
         btnFanC = (Button) findViewById(R.id.buttonFanCase);
+        btnSave = (Button) findViewById(R.id.buttonSave);
 
         btnProce.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -141,6 +142,8 @@ public class Build extends AppCompatActivity {
                 startActivity(iSave);
             }
         });
+
+
     }
 
 

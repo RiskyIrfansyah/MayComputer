@@ -4,25 +4,21 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
-import android.widget.Switch;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 public class MainActivity extends AppCompatActivity {
 
-    private Switch mySwitch;
-    private Button btnBuild, btnHasil;
+    private Button btnBuild;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        mySwitch = (Switch) findViewById(R.id.mySwitch);
 
-        //button Build
+        //button Start Build
         btnBuild = (Button) findViewById(R.id.build);
 
-        //button hasil
         btnBuild.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
