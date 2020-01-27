@@ -7,6 +7,8 @@ import android.widget.Button;
 import androidx.cardview.widget.CardView;
 
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.room.Room;
+import androidx.room.RoomDatabase;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -14,6 +16,8 @@ public class MainActivity extends AppCompatActivity {
     private Button btnHasil;
     private Button btnSetting;
     private Button btnAbout;
+
+    public static AppDatabase db;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
