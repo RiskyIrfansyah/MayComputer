@@ -24,21 +24,14 @@
 
     \\Build Pc(CPU)
     <string-array name="socket_intel">
-        <item>LGA 775</item>
-        <item>LGA 1150</item>
         <item>LGA 1151</item>
-        <item>LGA 1155</item>
-        <item>LGA 2011 V3</item>
         <item>LGA 2066</item>
     </string-array>
 
     <string-array name="socket_amd">
-        <item>AM1</item>
-        <item>AM2</item>
-        <item>AM3</item>
+        <item>sTRX4</item>
+        <item>TR4</item>
         <item>AM4</item>
-        <item>FM1</item>
-        <item>FM2</item>
     </string-array>
 
     <string-array name="number">

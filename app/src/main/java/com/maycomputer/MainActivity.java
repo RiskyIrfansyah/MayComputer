@@ -4,25 +4,31 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
-import android.widget.Switch;
+import androidx.cardview.widget.CardView;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 public class MainActivity extends AppCompatActivity {
 
-    private Switch mySwitch;
-    private Button btnBuild, btnHasil;
+    private Button btnBuild;
+    private Button btnHasil;
+    private Button btnSetting;
+    private Button btnAbout;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        mySwitch = (Switch) findViewById(R.id.mySwitch);
 
-        //button Build
+        //button Start Build
         btnBuild = (Button) findViewById(R.id.build);
+        //button Hasil
+        btnHasil = (Button) findViewById(R.id.hasil);
+        //button Setting
+        btnSetting = (Button) findViewById(R.id.setting);
+        //button about
+        btnAbout = (Button) findViewById((R.id.about));
 
-        //button hasil
         btnBuild.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -30,28 +36,30 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(iBuild);
             }
         });
-    }
 
+        btnHasil.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent iBuild = new Intent(getApplicationContext(), hasil.class);
+                startActivity(iBuild);
+            }
+        });
 
-    //Button Setting
-    public void ButtonOnClick(View view) {
-    }
+        btnSetting.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent iBuild = new Intent(getApplicationContext(), setting.class);
+                startActivity(iBuild);
+            }
+        });
 
-    public void setting(View view) {
-        Intent intent = new Intent(MainActivity.this, setting.class);
-        startActivity(intent);
-    }
-
-    //Button About
-    public void about(View view) {
-        Intent intent = new Intent(MainActivity.this, about.class);
-        startActivity(intent);
-    }
-
-    //button Your Build
-    public void hasil(View view){
-        Intent intent = new Intent(MainActivity.this, hasil.class);
-        startActivity(intent);
+        btnAbout.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent iBuild = new Intent(getApplicationContext(), about.class);
+                startActivity(iBuild);
+            }
+        });
     }
 
 }
