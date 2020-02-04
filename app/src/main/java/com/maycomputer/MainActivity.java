@@ -12,10 +12,10 @@ import androidx.room.RoomDatabase;
 
 public class MainActivity extends AppCompatActivity {
 
-    private Button btnBuild;
-    private Button btnHasil;
-    private Button btnSetting;
-    private Button btnAbout;
+    private CardView btnBuild;
+    private CardView btnHasil;
+    private CardView btnSetting;
+    private CardView btnAbout;
 
     public static AppDatabase db;
 
@@ -25,13 +25,13 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         //button Start Build
-        btnBuild = (Button) findViewById(R.id.build);
+        btnBuild = (CardView) findViewById(R.id.build1);
         //button Hasil
-        btnHasil = (Button) findViewById(R.id.hasil);
+        btnHasil = (CardView) findViewById(R.id.hasil1);
         //button Setting
-        btnSetting = (Button) findViewById(R.id.setting);
+        btnSetting = (CardView) findViewById(R.id.setting1);
         //button about
-        btnAbout = (Button) findViewById((R.id.about));
+        btnAbout = (CardView) findViewById((R.id.about1));
 
         btnBuild.setOnClickListener(new View.OnClickListener() {
             @Override
